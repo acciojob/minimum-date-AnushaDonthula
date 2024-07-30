@@ -1,6 +1,10 @@
 function minDate(dates) {
   //write you code here
+	function minDate(dates) {
+  // Use the spread operator to avoid modifying the original array
+  return [...dates].sort()[0];
 }
+
 
 // Do not change the code
 
